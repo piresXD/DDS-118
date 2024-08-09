@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    height: 20vh;
+    background-color: rgb(159, 159, 159);
+    width: 100vw;
+    justify-content: center;
+
+    align-items: center;
+}
+
+.red{
+    display: flex;
+    height: 50vh;
+    width: 100vw;
+    background-color:  red;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.sub{
+    text-align: center;
+    background-color: green;
+    width: 90%;
+    
+  
+}
+
+.sub2{
+    text-align: center;
+    background-color: green;
+    width: 90%;
+    
+  
+}
+
+footer{
+    background-color: rgb(71, 71, 71);
+    width: 100vw;
+    height: 24vh;
+    padding-top: 4rem;
+    bottom: 0;
+    text-align: center;
+    position: fixed;
+}

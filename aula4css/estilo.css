@@ -1,0 +1,49 @@
+div{
+    background-color: yellow;
+}
+#vermelho{
+    background-color: red;
+}
+#zuzu{
+    background-color: blue;
+}
+#jao{
+    background-color: aqua;
+    width: 500px;
+    height: 200px;
+}
+.jj{
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+#primeira{
+    margin: 5px 5px 5px 5px;
+
+    border: 2px black solid;
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+
+}
+
+#segunda{
+    border: 2px black solid;
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+
+}
+
+#terceira{
+    border: 2px black solid;
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+
+}
