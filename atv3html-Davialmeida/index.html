@@ -4,44 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário elaborado</title>
-    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
     <h1>Formulário</h1>
-    <text>Dados Pessoais</text>
-    <div id="DadosPessoais">
-    <label for="nome">Nome:</label>
-    <input type="text" name="nome">
-    <br> <br>
-    <label for="endereco">Endereço:</label>
-    <input type="text" name="endereco">
-    <br> <br>
-    <label for="cidade">Cidade:</label>
-    <input type="text" name="cidade">
-    <br> <br>
-    <label for="estado">Estado:</label>
-    <select name="estado">
-        <option value="São Paulo">São Paulo</option>
-        <option value="Espírito Santo">Espírito Santo</option>
-        <option value="Minas Gerais">Minas Gerais</option>
-        <option value="Mato Grosso">Mato Grosso</option>
-    </div>       
-    </select>
-    <br> <br> <br> <br>
+    <fieldset>
+        <legend>Dados pessoais</legend>
+        <form action="">
+                <div id="DadosPessoais">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome">
+                <br> <br>
+                <label for="endereco">Endereço:</label>
+                <input type="text" name="endereco">
+                <br> <br>
+                <label for="cidade">Cidade:</label>
+                <input type="text" name="cidade">
+                <br> <br>
+                <label for="estado">Estado:</label>
+                <select name="estado">
+                    <option value="São Paulo">São Paulo</option>
+                    <option value="Espírito Santo">Espírito Santo</option>
+                    <option value="Minas Gerais">Minas Gerais</option>
+                    <option value="Mato Grosso">Mato Grosso</option>
+                </select>
+            </div>
+        </form>
+    </fieldset>
+    
+    <fieldset id="DadosProfissionais">
+        <legend>Dados profissionais</legend>
+        <label>Natureza do Cargo</label>
+        <br>
+        <input type="radio" name="cargo" value="gerencia">Gerência
+        <input type="radio" name="cargo" value="financeiro">Financeiro
+        <input type="radio" name="cargo" value="recepcao">Recepção
+        <input type="radio" name="cargo" value="administrativo">Administrativo
+        <input type="radio" name="cargo" value="juridico">Jurídico
+        <br>
 
-    <div id="DadosProfissionais">
-    <label for="escolha">Natureza do cargo</label>
+        <label>Área de interesse</label>
+        <br>
+        <input type="checkbox" name="interesse" value="computacao">Computação
+        <input type="checkbox" name="interesse" value="biologia">Biologia
+        <input type="checkbox" name="interesse" value="meio_ambiente">Meio Ambiente
+        <input type="checkbox" name="interesse" value="engenharia">Engenharia
+        <input type="checkbox" name="interesse" value="historia">História<br>
+
+        <label for="curriculo">Mini-currículo:</label><br>
+        <textarea id="curriculo" name="curriculo" rows="4"></textarea>
+    </fieldset>
     <br>
-    <input type="radio" name="escolha" value="Gerência"> Gerência
-    <input type="radio" name="escolha" value="Financeiro"> Financeiro
-    <input type="radio" name="escolha" value="Recepção"> Recepção
-    <input type="radio" name="escolha" value="Administrativo">
-    Administrativo
-    <input type="radio" name="escolha" value="Jurídico"> Jurídico
-    <br> <br>
-    <label for="escolha">Área de interesse</label>
-    <br>
-    <input type="checkbox" name="tec1" value="camp"> Computação
-    </div>
+    <button type="submit">Enviar</button>
+    <button type="reset">Limpar</button>
+</form>
+
+
+   
+    
 </body>
 </html>
